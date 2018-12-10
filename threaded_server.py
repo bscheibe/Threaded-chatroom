@@ -23,7 +23,8 @@ def threaded(c):
         if not data: 
             print('Bye') 
             break
-
+        print(data)
+        
         for client in clients:
         #    if c != client:
             try:
@@ -38,7 +39,7 @@ def Main():
 	# reverse a port on your computer 
 	# in our case it is 12345 but it 
 	# can be anything 
-    port = 25565
+    port = 1200 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
     s.bind((host, port)) 
     print("socket binded to post", port) 

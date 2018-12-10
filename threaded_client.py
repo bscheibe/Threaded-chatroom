@@ -21,8 +21,8 @@ def Main():
 
     # Connection setup.
     s = socket.socket()
-    port = 25565                
-    s.connect(('73.165.28.234', port))  
+    port = 1200                
+    s.connect('73.165.28.234', port)  
 
     # Enter the room.
     name = input("Connected, please input a screen-name: ")
