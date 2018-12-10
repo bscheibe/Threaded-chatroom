@@ -21,7 +21,7 @@ def Main():
 
     # Connection setup.
     s = socket.socket()
-    port = 1200                
+    port = 25565                
     s.connect('73.165.28.234', port)  
 
     # Enter the room.
